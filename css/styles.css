@@ -936,4 +936,8 @@ h3.my-profession{
     .team-marquee{
         animation-duration: 25s;
     }
+    .team-item{
+        flex: 0 0 100%; /* 2 items visible */
+        max-width: 100%;
+    }
 }
