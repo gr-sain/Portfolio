@@ -136,7 +136,7 @@ ul{
 
 .aside .logo{
     position: absolute;
-    top: 50px;
+    top: 10px;
     font-size: 30px;
     text-transform: capitalize;
 }
@@ -216,8 +216,10 @@ ul{
     top: 6px;
     left: 0;
 }
-.aside .nav{
+.aside .nav {
     margin-top: 50px;
+    position: absolute;
+    top: 100px;
 }
 
 .aside .nav li{
@@ -523,7 +525,7 @@ h3.my-profession{
         transform: translateX(0);
     }
     to {
-        transform: translateX(-50%);
+        transform: translateX(-20%);
     }
 }
 
@@ -862,7 +864,7 @@ h3.my-profession{
         margin-left: 0;
     }
     .team-item{
-        flex: 0 0 33.333%; /* 3 items visible */
+        /* flex: 0 0 33.333%; 3 items visible */
         max-width: 33.333%;
     }
     
@@ -894,7 +896,7 @@ h3.my-profession{
         display: none;
     }
     .team-item{
-        flex: 0 0 50%; /* 2 items visible */
+        /* flex: 0 0 50%; 2 items visible */
         max-width: 50%;
     }
     
@@ -942,7 +944,7 @@ h3.my-profession{
         animation-duration: 25s;
     }
     .team-item{
-        flex: 0 0 100%; /* 2 items visible */
+        /* flex: 0 0 100%; 2 items visible */
         max-width: 100%;
     }
 }
